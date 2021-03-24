@@ -1,0 +1,10 @@
+epochs: 50
+batch_size: 5
+lr: 0.001
+tolerance: 0.0001
+num_iters_eval: 1000
+min_iters: 30000
+patience: 3
+tf_ratio: 0.0
+
+cuda: 2 # -1 means use CPU

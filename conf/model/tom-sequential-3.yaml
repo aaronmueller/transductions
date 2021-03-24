@@ -1,21 +1,20 @@
 name: Tom-Transformer
 
 encoder:
-  unit: Transformer
+  unit: LSTM
   type: sequence
   dropout: 0
-  num_layers: 1
+  num_layers: 3
   hidden_size: 256
   embedding_size: 256
-  num_heads: 4
+  bidirectional: False
   
 decoder:
-  unit: Transformer
+  unit: LSTM
   type: sequence
   dropout: 0
-  num_layers: 1
+  num_layers: 3
   max_length: 30
   hidden_size: 256
   embedding_size: 256
-  num_heads: 4
   attention: null

@@ -1,6 +1,6 @@
 defaults:
   - /dataset: tom-question
   - /hyperparameters: tom-repl
-  - /model: tom-transformer
+  - /model: tom-transformer-3
 
-name: tom-question-transformer
+name: tom-question-transformer-3
